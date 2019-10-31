@@ -1,0 +1,18 @@
+AgMIP_Wheat_4_ROTS																										
+Model: DSSAT-Nwheat																										
+"Modeler_name: Senthold Asseng, Chuang Zhao"																										
+Simulation:	Step 3																									
+Site:	"Rots, France"																									
+Model	Planting.date	Treatment	Yield	Emergence	Ant	Mat	FLN	GNumber	Biom-an	Biom-ma	MaxLAI	WDrain	CumET	SoilAvW	Runoff	Transp	CroN-an	CroN-ma	Nleac	GrainN	Nmin	Nvol	Nimmo	SoilN	Nden	cumPARi
+(2letters)	(YYYY-MM-DD)	(-)	(t/ha)	(YYYY-MM-DD)	(YYYY-MM-DD)	(YYYY-MM-DD)	(leaf/mainstem)	(grain/m2)	(t/ha)	(t/ha)	(-)	(mm)	(mm)	(mm)	(mm)	(mm)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(MJ/m?)
+DN	2001-10-26	1	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2002-11-19	2	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2003-10-29	3	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2007-10-30	4	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2008-11-20	5	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2009-10-28	6	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2011-10-28	7	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2012-10-26	8	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2013-10-22	9	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2014-10-22	10	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+DN	2015-10-25	11	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
