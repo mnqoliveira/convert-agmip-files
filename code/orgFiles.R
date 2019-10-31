@@ -44,12 +44,23 @@ treatments <- list()
 for (it in 1:length(dssatFiles)){
   
   temp <- readLines(dssatFiles[it])
-  
   colsOUT_pos <- grep('@', temp)
+  
+  # ET file has a two-row header that had to be dealt separately
+  if (namesFiles[it] == "ET"){
+    renameCols_p1 <- temp[colsOUT_pos[1]]
+    renameCols_p2 <- substring(temp[colsOUT_pos[1]-1], 
+                               nchar(renameCols_p1)+1, 
+                               nchar(temp[colsOUT_pos[1]-1]))
+    renameCols <- paste0(renameCols_p1, renameCols_p2)
+    temp[colsOUT_pos] <- renameCols
+    
+  }
+  
   colsOUT <- temp[colsOUT_pos[1]]
   colsOUT <- unlist(strsplit(colsOUT, " "))
   colsOUT <- colsOUT[colsOUT != ""]
-
+  
   values <- trimws(gsub("\\s+", " ", temp))
   values <- strsplit(values, " ")
   values2 <- lapply(values, filterLength, length(colsOUT))
